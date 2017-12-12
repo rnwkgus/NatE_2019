@@ -57,7 +57,7 @@ import org.jfree.ui.RefineryUtilities;
 import java.io.*;
 import javax.swing.JLabel;
 
-public class data_plot  {
+public class java_data_plot  {
 
 	
 	public int st;
@@ -133,7 +133,7 @@ public class data_plot  {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					data_plot window = new data_plot();
+					java_data_plot window = new java_data_plot();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -145,7 +145,7 @@ public class data_plot  {
 	/**
 	 * Create the application.
 	 */
-	public data_plot() {
+	public java_data_plot() {
 		initialize();
 	}
 

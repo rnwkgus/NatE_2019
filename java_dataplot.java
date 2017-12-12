@@ -57,7 +57,7 @@ import org.jfree.ui.RefineryUtilities;
 import java.io.*;
 import javax.swing.JLabel;
 
-public class guimake3  {
+public class data_plot  {
 
 	
 	public int st;
@@ -133,7 +133,7 @@ public class guimake3  {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					guimake3 window = new guimake3();
+					data_plot window = new data_plot();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -145,7 +145,7 @@ public class guimake3  {
 	/**
 	 * Create the application.
 	 */
-	public guimake3() {
+	public data_plot() {
 		initialize();
 	}
 
